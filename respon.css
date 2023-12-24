@@ -1,0 +1,35 @@
+.respon {
+    padding-bottom: 100px;
+    text-align: center;
+}
+.container {
+}
+.respon-content {
+}
+.respon-title {
+    color: #151515;
+    text-align: center;
+    font-family: 'Literata',sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.respon-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1224px) {
+        .respon-img {
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+        .respon-images {
+            align-items: center;
+        display: flex;
+        flex-direction: column;
+        }
+        .respon-title {
+            margin-bottom: 20px;
+        }
+}

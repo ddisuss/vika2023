@@ -1,0 +1,59 @@
+.outsor {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.container {
+}
+.outsor-content {
+}
+.outsor-title {
+    color: #151515;
+    text-align: center;
+    font-family: 'Literata', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 117.647%;
+    margin-bottom: 40px;
+}
+.outsor-images {
+    display: flex;
+    justify-content: space-between;
+}
+.second {
+    margin-left: 20px;
+}
+.fourth {
+    margin-left: 20px;
+}
+
+@media (max-width: 1224px) {
+    .outsor-img {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+    .outsor-images {
+    display: flex;
+    flex-direction: column;
+    }
+    .second {
+        margin-left: 80px;
+    }
+    .fourth {
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .outsor-title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .second {
+        margin-left: 0px;
+    }
+    .fourth {
+        margin-left: 0px;
+    }
+
+}

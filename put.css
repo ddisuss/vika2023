@@ -1,0 +1,159 @@
+.put {
+    position: relative;
+    margin-bottom: 100px;
+    min-height: 700px;
+}
+.container {
+}
+.put-content {
+    padding-top: 180px;
+}
+.put-title {
+    margin-bottom: 25px;
+    color: #FFF;
+    font-family: 'Literata', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.put-subtitle {
+    margin-bottom: 30px;
+    color: #D6D6D6;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.put-inputs {
+    margin-bottom: 35px;
+}
+.input {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.30);
+    height: 55px;
+}
+.input::placeholder{
+    color: white;
+    text-indent: 10px;
+}
+.input + input{
+    margin-left: 10px;
+}
+.put-btn {
+    margin-top: 42px;
+    color: #30426A;
+}
+
+.btn, a.btn {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 50px;
+    padding-left: 57px;
+    padding-right: 57px;
+    font-family: Exo 2;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.btn {
+    line-height: 50px;
+    display: inline-block;
+}
+.put-bg-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.put-bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@media (max-width: 1245px) {
+    .put-content{
+        margin-left: 100px;
+        padding-top: 109px;
+        padding-bottom: 260px;
+    }
+    .put{
+        min-height: unset;
+    }
+    .put-title {
+        margin-bottom: 15px;
+        color: #FFF;
+        font-family: 'Literata', sans-serif;
+        font-size: 22px;
+    }
+    .put-subtitle {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .input {
+        width: 150px;
+        background-color: rgba(255, 255, 255, 0.30);
+        height: 35px;
+    }
+    .input::placeholder{
+        color: white;
+        text-indent: 8px;
+    }
+    .btn, a.btn {
+        height: 35px;
+        padding-left: 57px;
+        padding-right: 57px;
+        font-family: Exo 2;
+        font-size: 15px;   
+    }
+    .btn {
+        line-height: 35px;
+        display: inline-block;
+    }
+}
+@media (max-width: 721px) {
+    .put-content{
+        margin-left: 40px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .put{
+        min-height: unset;
+    }
+    .put-title {
+        margin-bottom: 15px;
+        color: #FFF;
+        font-family: 'Literata', sans-serif;
+        font-size: 15px;
+    }
+    .put-subtitle {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .input {
+        width: 100px;
+        background-color: rgba(255, 255, 255, 0.30);
+        height: 30px;
+    }
+    .input::placeholder{
+        color: white;
+        font-size: 10px;
+        
+    }
+    .btn, a.btn {
+        height: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: Exo 2;
+        font-size: 10px;   
+    }
+    .btn {
+        line-height: 25px;
+        display: inline-block;
+    }
+}

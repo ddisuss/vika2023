@@ -1,0 +1,39 @@
+body {
+    font-family: "Literata" sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #151515;
+}
+
+/* utility */
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* Grid */
+
+.container{
+    width: 1200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+    .container{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,80 @@
+.algo {
+    margin-bottom: 100px;
+}
+.container {
+    
+}
+.algo-content {
+}
+.algo-inner {
+}
+.algogallary {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.swiper-wrapper {
+}
+.foto-slide {
+}
+.swiper-slide {
+}
+.btn-prev {
+}
+.btn-next {
+}
+.algo-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    margin: 0 auto;
+    height: 20px;
+    border: 1px solid black;
+}
+
+@media (max-width: 1200px) {
+    .algo-img{
+        width: 90%;
+
+    }
+} 
+
+
+@media (max-width: 800px) {
+    .slider-buttons {
+        width: 370px;
+    }
+    .prava-title{
+        font-size: 20px;
+    }
+    .algo-img{
+        width: 90%;
+
+    }
+    .algo-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 240px;
+        margin: 0 auto;
+        height: 20px;
+        border: 1px solid black;
+    }
+}
+@media (max-width: 399px) {
+    .slider-buttons {
+        width: 340px;
+    }
+    .algo-img{
+        width: 90%;
+    }
+    .algo-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 180px;
+        margin: 0 auto;
+        height: 20px;
+        border: 1px solid black;
+    }
+}
